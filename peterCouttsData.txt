@@ -1,4 +1,4 @@
-Unit#	UnitType	BR	BA	SQFT	AskingPrice	SalePrice	ClosingDate	DaysOnMarket
+UnitNo	UnitType	BR	BA	SQFT    AskingPrice	SalePrice   ClosingDate	DaysOnMarket
 103	A-1	2	2.00	1,260	$729,000	$735,000	08/15/14	59
 38	A-2	2	2.00	1,814	$0	$900,000	08/13/14	N/A
 65	B	2	2.00	1,410	$840,000	$835,000	03/14/14	290
