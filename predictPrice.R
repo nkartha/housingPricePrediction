@@ -19,7 +19,7 @@ CleanData <- function(housingData) {
   }
   
   # Closing date can be converted to number of days since the beginning of time, let's use earliest closing date.
-  beginningOfTime <- as.Date("02/28/07", "%m/%d/%y")summary()
+  beginningOfTime <- as.Date("02/28/07", "%m/%d/%y")
   housingData$ClosingDate <- as.numeric(as.Date(housingData$ClosingDate, "%m/%d/%y") - beginningOfTime)
   
   # Days on market needs to be cleaned ("N/A" values set to 0, need to think about this..) and converted to numerics
